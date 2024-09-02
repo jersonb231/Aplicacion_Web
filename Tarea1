@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Esta es una página de ejemplo.">
+    <title>Tarea APP WEB 1</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        body {  font-family: 'Arial', sans-serif;}
+    </style>
+</head>
+<body>
+
+    <h1>Encabezado Principal</h1>
+    <p>Este es un párrafo.</p>
+
+    <a href="https://www.ejemplo.com">Visitar Ejemplo</a>
+    <img src="imagen.jpg" alt="Una imagen de ejemplo">
+
+    <h2>Lista Desordenada</h2>
+    <ul>
+        <li>Manzanas</li>
+        <li>Peras</li>
+    </ul>
+
+    <h2>Lista Ordenada</h2>
+    <ol>
+        <li>Primero</li>
+        <li>Segundo</li>
+    </ol>
+
+    <h2>Tabla</h2>
+    <table border="1">
+        <tr>
+            <td>Nombre</td>
+            <td>Edad</td>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+    <div>
+        <p>Contenido en un bloque.</p>
+    </div>
+
+    <form action="enviar.php" method="POST">
+        <input type="text" name="nombre" placeholder="Nombre">
+        <button type="button">Clic Aquí</button>
+    </form>
+
+    <!-- Este es un comentario -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
